@@ -11,12 +11,14 @@
 <body>
   <div class="container">
     <!-- Welcome page -->
-    <div class="row" id="welcome">
-      <img src="Assets/logo.png" alt="logo">
-      <h1>WELCOME <br>
-      TO DELANI STUDIO</br></h1>
-      <h3>AMAZING PEOPLE ARE MAKING AMAZING DESIGNS IN A FUN ENVIRONMENT</h3>
-      <img src="Assets/mouse_click.png" alt="mouseclick">
+    <div class="row">
+      <div class="col-12" id="welcome">
+        <img src="Assets/logo.png" alt="logo" id="img1">
+        <h1>WELCOME</h1>
+        <h1>TO DELANI STUDIO</h1>
+        <h6>AMAZING PEOPLE ARE MAKING AMAZING DESIGNS IN A FUN ENVIRONMENT</h3>
+        <img src="Assets/mouse_click.png" alt="mouseclick" id="img2">
+      </div>
     </div>
     <!-- About us -->
     <div class="row">
@@ -36,6 +38,7 @@
     </div>
     <!-- What we do -->
     <div class="row row-cols-3">
+      <h1 class="col-12">WHAT WE DO</h1>
       <div class="col">
         <img src="Assets/services-icons/design_icon.png" alt="design icon">
       </div>
@@ -47,46 +50,47 @@
       </div>
     </div>
     <!-- Portfolio -->
-    <div class="row row-cols-4">
-      <!-- <h1 class="row1">PORTFOLIO</h1> -->
-      <div class="col">
+    <div class="row row-cols-4" id="portfolio">
+      <h1 class="col-12">PORTFOLIO</h1>
+      <div class="col-3">
         <img src="Assets/portfolio/work4.jpg" alt="">
       </div>
-      <div class="col">
+      <div class="col-3">
         <img src="Assets/portfolio/work3.jpg" alt="">
       </div>
-      <div class="col">
+      <div class="col-3">
         <img src="Assets/portfolio/work2.jpg" alt="">
       </div>
-      <div class="col">
+      <div class="col-3">
         <img src="Assets/portfolio/work1.jpg" alt="">
       </div>
-      <div class="col">
+      <div class="col-3">
         <img src="Assets/portfolio/work5.jpg" alt="">
       </div>
-      <div class="col">
+      <div class="col-3">
         <img src="Assets/portfolio/work6.jpg" alt="">
       </div>
-      <div class="col">
+      <div class="col-3">
         <img src="Assets/portfolio/work7.jpg" alt="">
       </div>
-      <div class="col">
+      <div class="col-3">
         <img src="Assets/portfolio/work8.jpg" alt="">
       </div>
     </div>
     <!-- Contact us -->
-    <div class="row">
+    <div class="row" id="contact">
       <h1>CONTACT US</h1>
       <div class="form-group">
         <input type="text" placeholder="Name...">
         <input type="email" placeholder="Email...">
       </div>
       <div>
-        <textarea name="message" id="msg" cols="60" rows="10"></textarea>
+        <textarea class="form-control" name="message" id="msg" cols="60" rows="10"></textarea>
+      <button type="submit">Submit</button>
       </div>
     </div>
     <!-- Footer -->
-    <div class="footer">
+    <div class="footer" id="social">
       <img src="Assets/social-icons/twitter.png" alt="twitter">
       <img src="Assets/social-icons/dribble.png" alt="dribble">
       <img src="Assets/social-icons/facebook.png" alt="facebook">
