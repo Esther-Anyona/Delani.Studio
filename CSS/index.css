@@ -62,7 +62,7 @@ h1,h3,h6,p{
   margin: 50px;
 } */ */
 #img1{
-  margin-left: 300px;
+  margin-left: 500px;
 }
 #img2{
   display: block;
@@ -91,4 +91,7 @@ h1,h3,h6,p{
   padding: 10px;
   justify-content: center;
   margin-left: 350px;
+}
+.pjName{
+  display: none;
 }
