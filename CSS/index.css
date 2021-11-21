@@ -27,11 +27,18 @@ h1,h3,h6,p{
   background-image: url(../Assets/backgrounds/s_image.jpg);
   color: azure;
 }
+.one,.two,.three{
+  align-items: center center;
+  justify-content: center;
+  margin-left: 150px;
+ 
+}
 #contact{
   background-image: url(../Assets/backgrounds/c_image.jpg);
-  color: azure;
+  /* color: azure; */
   align-content: center;
   margin: auto;
+  width: 104.7%;
 }
  #social{
   padding-top: 50px;
@@ -49,7 +56,7 @@ h1,h3,h6,p{
   margin: 50px;
 } */ */
 #img1{
-  
+  margin-left: 300px;
 }
 #img2{
   display: block;
@@ -58,4 +65,12 @@ h1,h3,h6,p{
 .copyright{
   padding-top: 50px;
 
+}
+.form-group{  
+  justify-content: center;
+  background: transparent;
+  text-decoration-color: white;
+}
+#design{
+  display: flex;
 }
