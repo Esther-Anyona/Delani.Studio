@@ -35,10 +35,16 @@ h1,h3,h6,p{
 }
 #contact{
   background-image: url(../Assets/backgrounds/c_image.jpg);
-  /* color: azure; */
+  padding-top: 100px;
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  color: #f0ffff; 
   align-content: center;
   margin: auto;
-  width: 104.7%;
+  width: 100%;
 }
  #social{
   padding-top: 50px;
@@ -66,11 +72,23 @@ h1,h3,h6,p{
   padding-top: 50px;
 
 }
-.form-group{  
+.myInput{  
   justify-content: center;
   background: transparent;
-  text-decoration-color: white;
+  color: white; 
 }
 #design{
   display: flex;
+}
+::placeholder{
+  color: white;
+}
+#msg{
+  display: flex;
+  justify-content: center;
+}
+.form-group{
+  padding: 10px;
+  justify-content: center;
+  margin-left: 350px;
 }
