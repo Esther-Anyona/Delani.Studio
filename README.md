@@ -4,7 +4,7 @@
 ### This is my IP for Prep week3
 
 
-![Delani](/Assets/_Delani Studio.jpg)
+![Delani](Assets/_Delani Studio.jpg)
 
 ## Table of Contents
 1. Description
@@ -30,10 +30,9 @@ You can fork a copy from my GitHub account https://github.com/Esther-Anyona/Dela
 
 ## BDD
 
-- Create an application that allows the user to enter their birth date. All fie;d values should be numbers.
-- The application should check whether the date and month entered is valid. If either of them is invalid,  the user should be alerted and asked to enter a valid one. 
-- The application should check whether the year is valid, check the number of integers for the year field.
-- The application should get the day of birth from the data collected in the form and output to the user their Akan name depending on their gender. 
+- Once one accesses the page, they are able to toggle through the 'what we do' icons and hover over the portfolio icons to get more details. If one is interested, they can then fill a form on the contact section.
+- The user is alerted if they don't fill all the entries for the form. 
+- The user is also alerted with a message confirming that their details as sent through the form has been received and what action will follow.
 
 
 ## Technology Used
