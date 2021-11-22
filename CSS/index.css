@@ -27,11 +27,14 @@ h1,h3,h6,p{
   background-image: url(../Assets/backgrounds/s_image.jpg);
   color: azure;
 }
+
+.hide1,.hide2,.hide3{
+  display: none;
+}
 .one,.two,.three{
   align-items: center center;
   justify-content: center;
   margin-left: 150px;
- 
 }
 #contact{
   background-image: url(../Assets/backgrounds/c_image.jpg);

@@ -5,6 +5,24 @@ $(document).ready(function(){
   }, (function(){
     $('.pjName',this).toggle('1000');
     }));
+
+    $('.process-icon1').click(function(){
+      $('.hide1').show(function(){
+        $('.process-icon1').hide('slow');
+      });
+    });
+
+    $('.process-icon2').click(function(){
+      $('.hide2').show(function(){
+        $('.process-icon2').hide('slow');
+      });
+    });
+
+    $('.process-icon3').click(function(){
+      $('.hide3').show(function(){
+        $('.process-icon3').hide('slow');
+      });
+    });
  
 
 
