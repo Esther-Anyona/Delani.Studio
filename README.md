@@ -1,12 +1,16 @@
 ## DELANI STUDIO
-
+-------------
 #### Author: Esther Kemunto Anyona
-### This is my IP for Prep week3
+-------------
+### Delani Studio Landing Page
+
 
 
 ![](Assets/delani-studio.png)
 
-## Table of Contents
+-------------
+## Table of Contents 
+
 1. Description
 1. Setup Instructions
 1. BDD
@@ -14,20 +18,21 @@
 1. Contact Information
 1. Licence & Copyright
 
-
+-------------
 ## Description
 
 <p>This is the landing page of a fictional studio called Delani Studio. It showcases at a glance the activities of the business including the previous works done, services offered as well as how to reach them in case a client wants more details or would like to hire the services.</p>
 
-
+----------------------
 ## Setup Instructions
 
-* Easily accessible by a computer, smart phone, tablet or Ipad can access the app
+* Easily accessible by a computer, smart phone, tablet,
+ Ipad 
 * It will require an internet connection to access the live link 
 <p>With a good internet connection, click on the live link https://esther-anyona.github.io/Delani.Studio/ to see how the website looks like and get to interact with it's features. If you click on the "what we do" icons, you'll be able to see more details for the various stages.
 You can fork a copy from my GitHub account https://github.com/Esther-Anyona/Delani.Studio, clone and make changes as you would like. Be free to propose changes to make this software better.</p>
 
-
+-----------
 ## BDD
 
 - Create an application that allows the user to enter their birth date. All fie;d values should be numbers.
@@ -35,7 +40,7 @@ You can fork a copy from my GitHub account https://github.com/Esther-Anyona/Dela
 - The application should check whether the year is valid, check the number of integers for the year field.
 - The application should get the day of birth from the data collected in the form and output to the user their Akan name depending on their gender. 
 
-
+-------------------
 ## Technology Used
 
 * HTML - HyperText MarkUp Language used to build the structure of the webpage.
@@ -44,13 +49,13 @@ You can fork a copy from my GitHub account https://github.com/Esther-Anyona/Dela
 * Bootstrap - provide custom style library
 * jQuery
 
-
+----------------------
 ## Contact Information
 
 * email - jkemuntoe@gmail.com
 * GitHub - https://github.com/Esther-Anyona
 
-
+------------
 ## Licence & Copyright
 
 MIT Licence
