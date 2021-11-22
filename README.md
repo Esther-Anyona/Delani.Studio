@@ -4,7 +4,7 @@
 ### This is my IP for Prep week3
 
 
-![Delani Studio](/Assets/_Delani Studio.jpg)
+![Delani](/Assets/_Delani Studio.jpg)
 
 ## Table of Contents
 1. Description
@@ -24,8 +24,8 @@
 
 * Easily accessible by a computer, smart phone, tablet or Ipad can access the app
 * It will require an internet connection to access the live link 
-<p>With a good internet connection, click on the live link ............... to see how the website looks like and get to interact with it's features. If you click on the "what we do" icons, you'll be able to see more details for the various stages.
-You can fork a copy from my account .............., clone and make changes as you would like. Be free to propose changes to make this software better.</p>
+<p>With a good internet connection, click on the live link https://esther-anyona.github.io/Delani.Studio/ to see how the website looks like and get to interact with it's features. If you click on the "what we do" icons, you'll be able to see more details for the various stages.
+You can fork a copy from my GitHub account https://github.com/Esther-Anyona/Delani.Studio, clone and make changes as you would like. Be free to propose changes to make this software better.</p>
 
 
 ## BDD
