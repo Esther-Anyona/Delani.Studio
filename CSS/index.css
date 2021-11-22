@@ -92,7 +92,19 @@ h1,h3,h6,p{
   justify-content: center;
   margin-left: 350px;
 } */
+.card{
+  position: relative;
+}
 .pjName{
   display: none;
+  color: white;
+  text-align: center;
+  font-weight: bolder;
+  border: 5px solid white;
+  height: 80%;
+  width: 80%;
+  position: absolute;
+  padding: 20px;
+  margin: 30px 30px;
 }
 
