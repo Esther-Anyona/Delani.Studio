@@ -5,15 +5,18 @@
 } 
 
 .row{
-  padding-top: 10px; 
-  /* margin-top: 100px; */
-  /* border: 100px; */
+  padding-top: 20px; 
 }
 
-h1,h3,h6,p{
+h1,h3,h6{
   text-align: center;
-  
+  font-weight: bold;
 }
+
+p{
+  text-align: center;
+}
+
 #welcome{
   background-image:url(../Assets/backgrounds/h_img.jpg);
   background-size: cover;
@@ -31,15 +34,9 @@ h1,h3,h6,p{
 .hide1,.hide2,.hide3{
   display: none;
 }
-.one,.two,.three{
-  align-items: center center;
-  justify-content: center;
-  margin-left: 150px;
-}
+
 #contact{
   background-image: url(../Assets/backgrounds/c_image.jpg);
-  padding-top: 100px;
-
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -48,9 +45,10 @@ h1,h3,h6,p{
   align-content: center;
   margin: auto;
   width: 100%;
+  height: 100;
 }
  #social{
-  padding-top: 50px;
+  padding-top: 20px;
   display: flex;
   justify-content: center;
 } 
@@ -72,29 +70,38 @@ h1,h3,h6,p{
   margin-left: 420px;
 }
 .copyright{
-  padding-top: 50px;
+  padding-top: 20px;
 
 }
 .myInput{  
-  justify-content: center;
   background: transparent;
   color: white; 
+  border: 0.5px solid white;
+  width: 70%; 
+  line-height: 30px;
 }
+
+.btn{
+  margin-left: 300px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
 #design{
   display: flex;
 }
 ::placeholder{
   color: white;
 }
+
 #msg{
   display: flex;
   justify-content: center;
 }
-/* .form-group{
-  padding: 10px;
-  justify-content: center;
-  margin-left: 350px;
-} */
+
+form{
+  margin-left: 200px;
+} 
 .card{
   position: relative;
 }
@@ -102,6 +109,7 @@ h1,h3,h6,p{
   display: none;
   color: white;
   text-align: center;
+  font-size: 25px;
   font-weight: bolder;
   border: 5px solid white;
   height: 80%;

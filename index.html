@@ -24,6 +24,8 @@
         </a>
       </div>
     </div>
+
+    
     <!-- About us -->
     <div class="row">
       <h1>ABOUT US</h1>
@@ -32,39 +34,37 @@
       <p>We start each project by by understanding your business goals, the user's needs and the product requirements.</p> 
       <p>Then we help translate them into effective and elegant solutions.</p>
     </div>
+
+
     <!-- Services -->
     <div class="row" id="services">
       <h1>SERVICES</h1>
       <P>Before we sign a contract or write a line of code our team will spend the necessary time needed to understand your product vision</P>
       <P>The outcome of this scoping session is a proposal or high-level statement of work.</P>
       <P>Based on your requirements, we can provide a complete offering or just the pieces you need.</P>
-
     </div>
 
 
     <!-- What we do -->
-    <div class="row row-cols-3">
-
-      <h1 class="col-12">WHAT WE DO</h1>
-      <div class="col-3">        
+    <div class="row row-cols-4">
+      <h1 class="col-12 p-5">WHAT WE DO</h1>
+      <div class="col-4">        
         <img class="process-icon1" src="Assets/services-icons/design_icon.png" alt="design icon">
-        <h3>Design</h3>    
-        <p class="hide1">
-          Our design practice offers a full range of services including brand strategy, interaction and visual design and user experience testing.
-          Throughout your project, our designers create and implement visual design and workflows, solicit user feedback and work with you to make sure what gets built is what is needed.
-        </p>        
+          <h3>Design</h3>    
+          <p class="hide1">
+            Our design practice offers a full range of services including brand strategy, interaction and visual design and user experience testing.
+            Throughout your project, our designers create and implement visual design and workflows, solicit user feedback and work with you to make sure what gets built is what is needed.
+          </p>        
       </div>
-
-      <div class="col-3">            
+      <div class="col-4">            
         <img class="process-icon2" src="Assets/services-icons/dev_icon.png" alt="development icon">
         <h3>Development</h3>            
         <p class="hide2">
           All engineers are fluent in the latest enterprise, mobile and web development technologies. 
           They collaborate with your team to write, and improve code on a daily basis, using proven practices such as test-driven development and pair programming.
         </p> 
-        </div>      
-
-      <div class="col-3">                      
+      </div>      
+      <div class="col-4">                      
         <img class="process-icon3" src="Assets/services-icons/product_icon.png" alt="product management icon">
         <h3>Product Management</h3>              
         <p class="hide3">
@@ -140,20 +140,26 @@
 
     <!-- Contact us -->
     <div class="row" id="contact">
-      <h1>CONTACT US</h1>
-      <form id="form">
-        <div class="form">
-          <div class="col">
-            <input class="myInput" type="text" id="user" placeholder="Name...">
-            <input class="myInput" type="email" id="mail" placeholder="Email..."> 
-          </div> 
-          <div class="col-12">   
-            <textarea class="myInput" name="message" id="msg" placeholder="Your message here..." rows="5" columns="50"></textarea>
-          </div> 
+
+      <h1 class="col-12 p-2">CONTACT US</h1>
+
+      <form id="form">       
+          <div class="row col-lg-10">
+            <div class="col-md-6">
+              <input class="myInput" type="text" id="user" placeholder="Name...">
+            </div>
+            <div class="col-md-6">
+              <input class="myInput" type="email" id="mail" placeholder="Email..."> 
+            </div> 
+          </div>
+          <div class="row">
+            <div class="col">   
+              <textarea class="myInput" name="message" id="msg" placeholder="Your message here..." rows="10"></textarea>
+            </div> 
+          </div>
           <div>
             <button type="submit" onclick="submit()" class="btn btn-outline-dark btn-md" >Submit</button>
-          </div>
-        </div>
+          </div>      
       </form>
     </div>
 
