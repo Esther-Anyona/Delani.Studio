@@ -3,7 +3,8 @@
 #### Author: Esther Kemunto Anyona
 ### This is my IP for Prep week3
 
-![Delani](Assets/_Delani Studio.jpg)
+
+![](Assets/delani-studio.png)
 
 ## Table of Contents
 1. Description
