@@ -1,15 +1,23 @@
-// $(document).ready(function(){
-  $('for#form').on('submit', function(event){
-    event.preventDefault();
-  }
-  // $(".toggle-img").on("click", function(){
-  //   $("toggle.text").toggle();
-  // }); 
-  // $(".form").click(submit(){
-  // let name= $("input#user").val();
-  // let email= $("input#mail").val();
-  // let message= $("textarea#msg").val();
-  if $("input#user").val() && $("input#mail").val();
-    alert("Thank you" + " " + name + " " + "for contacting us. We'll get back to you soon!");
+// Business Logic
+$(document).ready(function(){
+
+
+
+
+  // UI Logic
+  $('#form').submit(function(){
+    let name= $('input#user').val();
+    let email= $("input#mail").val();
+    let message= $("textarea#msg").val();
+    // form input validation
+    if ((name =="") || (email =="") || (message=="")){
+      alert("Please fill all the fields in the form");
+      return false;
     }
- });
+    // else((name===value) && (email===value) && (message===value));{
+    //   alert("Thank you" + " " + name + " " + "for contacting Delani Studio. We'll get back to you soon!");
+    //   return true;
+    // };
+    
+  });
+});

@@ -87,11 +87,12 @@ h1,h3,h6,p{
   display: flex;
   justify-content: center;
 }
-.form-group{
+/* .form-group{
   padding: 10px;
   justify-content: center;
   margin-left: 350px;
-}
+} */
 .pjName{
   display: none;
 }
+
