@@ -128,4 +128,6 @@ form{
   padding: 20px;
   margin: 30px 30px;
 }
-
+#one,#two,#three{
+  padding-left: 150px;
+}

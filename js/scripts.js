@@ -22,7 +22,7 @@ $(document).ready(function(){
 
     $('.process-icon1').click(function(){
       $('.hide1').show(function(){
-        $('.process-icon1').hide('slow');
+        $('.process-icon1').hide('100');
       });
     });
 
@@ -57,25 +57,16 @@ $(document).ready(function(){
     });
  
 
-
-  // ((name===value) && (email===value) && (message===value));
   // UI Logic
   $('#form').submit(function(e){
     e.preventDefault();
-    let name= $('input#user').val();
-    let email= $("input#mail").val();
-    let message= $("textarea#msg").val();
-
-    // form input validation
-
-    if ((name =="") || (email =="") || (message=="")){
-      alert("Please fill all the fields in the form");
+    if (($('input#user').val() =="") || ($("input#mail").val() =="") || ($("textarea#msg").val()=="")){
+      alert("Please ensure all entries in the form are filled");
       // return false;
     }
     else {
-      alert("Thank you" + " " + name + " " + "for contacting Delani Studio. We'll get back to you soon!");
+      alert("Thank you" + " " + $('input#user').val() + " " + "for contacting Delani Studio. We'll get back to you soon!");
       // return true;
-    }
-    
+     }
   });
 });
