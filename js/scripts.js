@@ -1,24 +1,11 @@
 // Business Logic
+// Hover & Toggle
 $(document).ready(function(){
   $('.card').hover(function(){
     $('.pjName',this).toggle('1000');
   }, (function(){
     $('.pjName',this).toggle('1000');
     }));
-
-
-    
-    // // $('.process-icon1').click(function(){
-    // //   $('.hide1').toggle('slow');
-    // // });
-
-    // $('.process-icon2').click(function(){
-    //   $('.hide2').toggle('slow');
-    // });
-
-    // // $('.process-icon3').click(function(){
-    // //   $('.hide3').toggle('slow');
-    // // });
 
     $('.process-icon1').click(function(){
       $('.hide1').show(function(){

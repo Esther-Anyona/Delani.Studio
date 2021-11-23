@@ -35,10 +35,10 @@ You can fork a copy from my GitHub account https://github.com/Esther-Anyona/Dela
 -----------
 ## BDD
 
-- Create an application that allows the user to enter their birth date. All fie;d values should be numbers.
-- The application should check whether the date and month entered is valid. If either of them is invalid,  the user should be alerted and asked to enter a valid one. 
-- The application should check whether the year is valid, check the number of integers for the year field.
-- The application should get the day of birth from the data collected in the form and output to the user their Akan name depending on their gender. 
+- The webpage displays the Studio's work at a glance.
+- A user/client who visits the page is able to go through the previous projects done by checkingthe portflio as well as understand the processes that take place by clicking on the 'What we do' icons.
+- Should one be interested in knowing more, there's a contactpage where one submits their name, email address and leave a message.
+- The page alerts the user if they dont fill all fields. It also gives an alert when the form has been properly filled.
 
 -------------------
 ## Technology Used
@@ -51,6 +51,8 @@ You can fork a copy from my GitHub account https://github.com/Esther-Anyona/Dela
 
 ----------------------
 ## Contact Information
+
+<p>To leave a comment or reach out for collaborations or questions, you can contact the author through;</p>
 
 * email - jkemuntoe@gmail.com
 * GitHub - https://github.com/Esther-Anyona
