@@ -120,7 +120,11 @@ padding-top: 20px;
 form{
   margin-left: 200px;
 } 
-
+@media screen and (max-width: 977px) {
+  form {
+    margin-left: 0px;
+  } 
+}
 .card{
   position: relative;
 }
@@ -141,4 +145,20 @@ form{
 
 #one,#two,#three{
   padding-left: 150px;
+}
+@media (min-width: 576px) {
+  .container-sm, .container {
+    max-width: 540px;
+  }
+}
+@media (max-width: 576px) {
+  .content {
+    max-width: 540px;
+  }
+}
+
+@media (max-width: 768px) {
+  #img1,#img2 {
+    padding-left: 150px; 
+  }
 }
