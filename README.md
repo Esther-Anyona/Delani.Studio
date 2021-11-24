@@ -36,8 +36,8 @@ You can fork a copy from my GitHub account https://github.com/Esther-Anyona/Dela
 ## BDD
 
 - The webpage displays the Studio's work at a glance.
-- A user/client who visits the page is able to go through the previous projects done by checkingthe portflio as well as understand the processes that take place by clicking on the 'What we do' icons.
-- Should one be interested in knowing more, there's a contactpage where one submits their name, email address and leave a message.
+- A user/client who visits the page is able to go through the previous projects done by checkingthe portfolio as well as understand the processes that take place by clicking on the 'What we do' icons.
+- Should one be interested in knowing more, there's a contact us page where one submits their name, email address and leave a message.
 - The page alerts the user if they dont fill all fields. It also gives an alert when the form has been properly filled.
 
 -------------------
